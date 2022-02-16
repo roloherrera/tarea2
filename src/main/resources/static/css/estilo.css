@@ -1,0 +1,112 @@
+*{
+	
+	box-sizing: border-box;
+}
+
+body{  
+        top: 12%;
+        left: 20px; 
+        width: 100%;
+	background-color: #1a1a1a;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 20px;
+        
+}
+footer{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.header {
+    background-color: #0d0d0d;
+    height: 12%;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	max-width: 992px;
+	margin: 0 auto;
+        
+}
+
+.nav-link{
+	color: black;
+        text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+	text-decoration: none;
+}
+
+#logo{
+        top: 8%;
+        left: 0px;
+	font-size: 50px;
+	font-weight: bold;
+	padding-right: 40px;
+	
+        color: white;
+        text-shadow: 1px 0 0 red, 0 -1px 0 red, 0 1px 0 red, -1px 0 0 red;
+        text-decoration: none;
+}
+
+.nav-menu{
+	display: flex;
+	margin-right: 50px;
+        margin-bottom: 97%;
+	list-style: none;
+}
+
+.nav-menu-item{
+        
+	font-size: 20px;
+	margin: 0 10px;
+	width: max-content;
+}
+
+.nav-menu-link:hover{
+        color: white;
+        text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+	background-color: #B22222;
+	transition: 0.5s;
+}
+
+.nav-menu-link{
+	padding: 8px 12px;
+	border-radius: 4px;
+}
+
+.titulos{
+    color: white;
+    font-size: 20px;
+}
+
+.titulolopag{
+        font-size: 40px;
+        color: black;
+        text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+	text-decoration: none;
+        
+}
+.stexto{
+    font-size: 20px;
+    color: #f7f7f7;
+}
+#Contenido{
+    
+    padding-top: 60px;
+    height: 88%;
+    overflow: auto;
+    width: 100%;
+}
+#Barralateral{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 20%;
+    padding-right: 10px;
+    
+}
