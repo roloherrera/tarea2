@@ -54,7 +54,7 @@ footer{
 
 .nav-menu{
 	display: flex;
-	margin-right: 50px;
+	margin-right: 0px;
         margin-bottom: 97%;
 	list-style: none;
 }
@@ -62,7 +62,7 @@ footer{
 .nav-menu-item{
         
 	font-size: 20px;
-	margin: 0 10px;
+	margin: 0 5px;
 	width: max-content;
 }
 
@@ -96,7 +96,7 @@ footer{
 }
 #Contenido{
     
-    padding-top: 60px;
+    padding-top: 80px;
     height: 88%;
     overflow: auto;
     width: 100%;
@@ -109,4 +109,29 @@ footer{
     width: 20%;
     padding-right: 10px;
     
+}
+.smallmenu{
+	display: flex;
+        left: 0;
+	margin-right: 0px;
+	list-style: none;
+        color: red;
+        background-color: red;
+        text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+}
+.smallmenu:hover{
+        color: white;
+        text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+	background-color: red;
+	transition: 0.5s;
+}
+.smallmenu-item{
+        
+	font-size: 20px;
+	margin: 0 5px;
+	width: max-content;
+}
+.fotos{
+    width: 500px;
+    height: auto;
 }
